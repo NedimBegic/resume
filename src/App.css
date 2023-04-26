@@ -1,0 +1,169 @@
+.App {
+  width: 100vw;
+  height: auto;
+  font-family: "Noto Sans Display", sans-serif;
+}
+
+.head {
+  width: 100%;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom-left-radius: 20px;
+  background-image: url("beck.jpg");
+  backdrop-filter: blur(20px);
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+}
+
+p,
+li {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main article {
+  width: 45%;
+}
+.head h1 {
+  margin: 0;
+  margin-top: -0.3em;
+  letter-spacing: 0.1em;
+  color: white;
+  font-family: sans-serif;
+}
+
+.mypic {
+  width: 10em;
+
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 0.1em;
+}
+
+.info > div {
+  font-size: 1.1em;
+  background-color: #26acac;
+  padding: 0.2em 1em;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #004b6b;
+}
+
+.info a,
+.info i {
+  letter-spacing: 0.05em;
+  color: white;
+  text-decoration: none;
+}
+
+.skils {
+  width: auto;
+}
+
+.heading {
+  margin-left: 0.5em;
+  border-bottom: 2px solid #004b6b;
+  color: #004b6b;
+  width: 90%;
+  border-bottom-right-radius: 20px;
+}
+
+a {
+  color: #004b6b;
+}
+.skils div {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skils div p {
+  padding: 0.3em 0.4em;
+  background-color: #26acac;
+  color: white;
+  border-radius: 40%;
+  font-weight: bold;
+}
+
+.volonter {
+  width: auto;
+}
+
+.volonter div {
+  padding-left: 2em;
+}
+
+.volonter h4 {
+  margin: 0;
+}
+
+.volonter ul li {
+  padding-bottom: 0.2em;
+}
+
+.languages div {
+  display: flex;
+  align-items: center;
+  padding-left: 3em;
+}
+
+.languages div * {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5em;
+}
+.paidwork {
+  width: auto;
+}
+
+.volonter h4 {
+  margin: 0;
+}
+
+.paidwork div {
+  padding-left: 2em;
+}
+.paidwork h4 {
+  margin-bottom: -0.5em;
+}
+
+.paidwork p {
+  line-height: 1.4em;
+  padding-left: 1em;
+  width: 80%;
+}
+
+.passion div h4 {
+  padding-left: 2em;
+  margin-bottom: -0.5em;
+}
+
+.passion div p {
+  line-height: 1.4em;
+  padding-left: 3em;
+}
+
+.passion ul {
+  padding-left: 6em;
+}
+
+.passion ul li {
+  line-height: 1.4em;
+}
+
+.more {
+  padding-left: 3em;
+}
